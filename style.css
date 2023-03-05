@@ -316,6 +316,7 @@ footer .footer-icons {
   section#work .overlay .work-images .row .content-60 .content-img {
     background-attachment: scroll;
     background-position-x: 50%;
+    background-position-y: 69%;
   }
   section#work .overlay .work-images .row:not(:first-child) .content-60 .content-img {
     background-attachment: scroll;
