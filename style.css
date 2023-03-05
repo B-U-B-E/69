@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+.MUSIC{
+  transition: all ease-in-out 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+h6 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  background-color: #FFF;
+}
+
+h1, h2, h3, header nav ul .bube, .newsletter .subscribe .content-40 input[type=button], header .banner .overlay .header a[href^=https] {
+  
+  font-weight: 700;
+}
+
+
+
+footer, section#features, section#work {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+
+section#features .overlay, section#work, header nav {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.newsletter, section#features .features-header, section#work .work-text {
+  
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+
+.newsletter .subscribe .content-40 input[type=button], header .banner .overlay .header a[href^=https] {
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
+  
+  border: none;
+  
+  
+  border-radius: 5px;
+}
+.newsletter .subscribe .content-40 input[type=button]:hover, header .banner .overlay .header a[href^=https]:hover {
+  background: none;
+  box-shadow: 0 0 0 5px #37a0f3;
+  
+  
+}
+
+
+.newsletter .newsletter-inner p::after, section#features .features-header p::after, section#work .work-text p::after {
+  content: "";
+  
+  width: 130px;
+  height: 2px;
+  display: block;
+  margin: 20px auto;
+}
+
+header {
+  background: linear-gradient(rgba(65, 74, 79, 0.0901960784), rgba(65, 74, 79, 0.0901960784)), url("./images/hero.jpg") no-repeat center/cover fixed;
+}
+
+.newsletter .subscribe .content-40 input[type=button], header .banner .overlay .header a[href^=https],.newsletter .newsletter-inner p::after, section#features .features-header p::after, section#work .work-text p::after{background-color: #37a0f3;}
+
+header nav, header nav .menu, header .banner, section#work .overlay .work-images .row, section#features .overlay .row, .newsletter .subscribe{display: flex;}
+
+a, h1, h3, .newsletter .subscribe .content-40 input[type=button], header .banner .overlay .header a[href^=https], footer{color:#fff;}
+
+.newsletter, section#features .features-header, section#work .work-text, header nav ul, header .banner .overlay .header, section#features .overlay .row, footer{text-align: center;}
+
+header nav .menu li:not(:last-child), section#work .overlay .work-images .row .content-inner, .newsletter .subscribe .subscribe-inner{margin-right: 1.875rem;}
+
+header nav, header nav .menu, section#work .overlay .work-images .row, section#features .overlay .row{justify-content: space-between;}
+
+header .banner, .newsletter .subscribe{ justify-content: center; align-items: center;}
+
+section#work .overlay .work-images .row, .newsletter .subscribe{margin-right: -1.875rem;}
+
+section#work .overlay .work-images .row .content-60, .newsletter .subscribe .content-60{flex: 0 0 60%}
+
+section#work .overlay .work-images .row .content-40 .content-img, section#work .overlay .work-images .row .content-60 .content-img, section#work .overlay .work-images .row:not(:first-child) .content-60 .content-img{background-position-y: 50%; background-repeat: no-repeat;}
+
+section#work .overlay .work-images .row .content-40 .content-img, section#work .overlay .work-images .row .content-60 .content-img{height: 200px;}
+
+header .banner .overlay .header a[href^=https], section#work .overlay .work-images .row:not(:first-child){margin-top: 1.875rem;}
+
+section#work .work-text, section#features .features-header, .newsletter .newsletter-inner{margin-bottom: 3.75rem;}
+
+header .banner .overlay .header a[href^=https], .newsletter .subscribe .subscribe-inner input{padding: 0.9375rem;}
+
+section#features .overlay .row .leb-33-denari .leb-inner i, footer h6 span{color: #37a0f3;}
+
+header nav {
+  
+  
+  padding-top: 1.875rem;
+  background: none;
+}
+
+header .banner {
+  height: 100vh;
+}
+
+header .banner .overlay {
+  flex: 0 1 auto;
+}
+
+header .banner .overlay .header {
+  
+  cursor: col-resize;
+}
+
+header .banner .overlay .header a[href^=https] {
+  display: inline-block;
+  
+  
+}
+
+section#work .overlay .work-images .row .content-40 {
+  flex: 0 1 40%;
+}
+
+section#work .overlay .work-images .row .content-40 .content-img {
+  
+  background-image: url("./images/coast.jpg");
+  
+  
+}
+
+section#work .overlay .work-images .row .content-60 .content-img {
+  
+  background: url("./images/island.jpg") no-repeat center fixed;
+  
+  background-position-x: 100%;
+}
+
+section#work .overlay .work-images .row:not(:first-child) {
+  
+  flex-direction: row-reverse;
+}
+
+section#work .overlay .work-images .row:not(:first-child) .content-40 .content-img {
+  background: url("./images/mountain.jpg");
+  background-position-y: 50%;
+}
+
+section#work .overlay .work-images .row:not(:first-child) .content-60 .content-img {
+  background: url("./images/balloon.jpg") no-repeat center fixed;
+  
+  background-position-x: 0%;
+}
+
+section#features {
+  background-color: rgba(105, 105, 105, 0.1058823529);
+}
+
+section#features .overlay .row .leb-33-denari {
+  flex-basis: 31.33%;
+}
+section#features .overlay .row .leb-33-denari .leb-inner {
+  margin: auto 1% auto;
+}
+
+section#features .overlay .row .leb-33-denari .leb-inner i {
+  font-size: 1.875rem;
+  
+}
+
+.newsletter {
+  margin-top: 11.25rem;
+}
+
+.newsletter .subscribe .subscribe-inner input {
+  width: 100%;
+}
+.newsletter .subscribe .content-40 {
+  flex: 0 -1 40%;
+}
+
+.newsletter .subscribe .content-40 input[type=button]:hover {
+  color: #414a4f;
+}
+
+footer {
+  background-color: #414a4f;
+  
+  text-align: center;
+  cursor: cell;
+}
+footer .footer-icons {
+  margin-bottom: 1.875rem;
+  font-size: 30px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  footer, section#features, section#work {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+  section#work .overlay .work-images .row {
+    display: block;
+    margin-right: 0;
+  }
+  section#work .overlay .work-images .row .content-40 .content-img {
+    margin-bottom: 1.875rem;
+  }
+  section#work .overlay .work-images .row .content-60 .content-img {
+    background-position-x: 20%;
+  }
+  section#work .overlay .work-images .row .content-inner {
+    margin-right: 0;
+  }
+  section#work .overlay .work-images .row:not(:first-child) .content-60 .content-img {
+    background-position-x: 79%;
+  }
+  section#features .overlay .row {
+    display: block;
+  }
+  .newsletter {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .newsletter .subscribe {
+    display: block;
+    margin-right: 0;
+  }
+  .newsletter .subscribe .content-60 {
+    margin-bottom: 1.875rem;
+  }
+  .newsletter .subscribe .subscribe-inner {
+    margin-right: 0;
+  }
+  .newsletter .subscribe .content-40 {
+    max-width: 69%;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+@media (max-width: 425px) {
+  section#features .overlay, section#work, header nav {
+    width: 100%;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+  header {
+    background-attachment: scroll;
+  }
+  header nav {
+    display: block;
+  }
+  header nav .menu li:not(:last-child) {
+    margin-right: 0.9375rem;
+  }
+  section#work .overlay .work-images .row .content-60 .content-img {
+    background-attachment: scroll;
+    background-position-x: 50%;
+  }
+  section#work .overlay .work-images .row:not(:first-child) .content-60 .content-img {
+    background-attachment: scroll;
+    background-position: 50%;
+  }
+}
+
+
+
+
