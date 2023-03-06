@@ -246,7 +246,11 @@ footer .footer-icons {
   font-size: 30px;
 }
 
-
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
 
 
 
