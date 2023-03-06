@@ -122,7 +122,7 @@ a, h1, h3, .newsletter .subscribe .content-40 input[type=button], header .banner
 
 .newsletter, section#features .features-header, section#work .work-text, header nav ul, header .banner .overlay .header, section#features .overlay .row, footer{text-align: center;}
 
-header nav .menu li:not(:last-child), section#work .overlay .work-images .row .content-inner, .newsletter .subscribe .subscribe-inner{margin-right: 1.875rem;}
+header nav .menu li:not(:last-child), section#work .overlay .work-images .row .content-inner, .newsletter .subscribe .subscribe-inner{margin-right: 1.875rem; -webkit-appearance: none;}
 
 header nav, header nav .menu, section#work .overlay .work-images .row, section#features .overlay .row{justify-content: space-between;}
 
