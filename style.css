@@ -147,7 +147,6 @@ section#features .overlay .row .leb-33-denari .leb-inner i, footer h6 span{color
 input { -webkit-appearance: none; -moz-appearance: none; appearance: none;}
 
 /*edit from mobile*/
-
 input[type="submit"] { background: #37a0f3; border: none; padding: 10px 20px; color: #fff; cursor: no-drop;}
 
 header nav {
