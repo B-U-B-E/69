@@ -12,6 +12,12 @@
     <title>Challenge05</title>
 </head>
 
+<style>
+    body {
+        transition: all ease-in-out 0.5s;
+    }
+</style>
+
 
 
 <body>
@@ -170,7 +176,7 @@
                 </div>
                 <div class="content-40">
                     <div class="subscribe-inner">
-                        <input type="submit" value="subscribe now">
+                        <input onmousedown="black()" ondblclick="white()" type="button" value="subscribe now">
                     </div>
                 </div>
             </div>
@@ -193,6 +199,22 @@
 
         <h6>please dont copy the code, try to do it yourself. </h6>
     </footer>
+
+    <script>
+        function black() {
+
+            document.body.style.background = "black";
+            document.body.style.color = "white";
+
+        }
+
+        function white() {
+
+            document.body.style.background = "white";
+            document.body.style.color = "black";
+
+        }
+    </script>
 
 </body>
 
