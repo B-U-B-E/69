@@ -247,7 +247,7 @@ footer .footer-icons {
 }
 
 /*edit from mobile*/
-input[type=“submit]{ -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+input[type=“submit"]{color:red; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
 
 
 
