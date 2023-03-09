@@ -246,6 +246,13 @@ footer .footer-icons {
   font-size: 30px;
 }
 
+/*edit from mobile*/
+input[type=“submit]{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 
 
 
