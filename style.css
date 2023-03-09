@@ -247,7 +247,7 @@ footer .footer-icons {
 }
 
 /*edit from mobile*/
-input[type=“submit"]{background-color:red !important; -webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important;}
+input{background-color:red !important; -webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important;}
 
 
 
