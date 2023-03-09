@@ -144,6 +144,10 @@ header .banner .overlay .header a[href^=https], .newsletter .subscribe .subscrib
 
 section#features .overlay .row .leb-33-denari .leb-inner i, footer h6 span{color: #37a0f3;}
 
+input { -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+
+input[type="submit"] { background: #37a0f3; border: none; padding: 10px 20px; color: #fff;}
+
 header nav {
   
   
@@ -247,6 +251,8 @@ footer .footer-icons {
 }
 
 /*edit from mobile*/
+
+
 
 
 
